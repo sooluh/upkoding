@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Penghitung Berat Badan Ideal - Proyek ke-2 dari UpKoding</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="section">
+        <div>
+            <div class="container">
+                <div class="grid">
+                    <div>
+                        <div class="card">
+                            <h3 class="card-title">
+                                Kalkulator Berat Badan
+                            </h3>
+
+                            <div class="alert" id="error" style="display: none;">
+                                <p></p>
+                            </div>
+
+                            <div class="card-body">
+                                <div id="gender">
+                                    <label for="male">
+                                        <input class="radio" type="radio" name="gender" id="male" value="male">
+                                        Cowo
+                                    </label>
+                                    <label for="female">
+                                        <input class="radio" type="radio" name="gender" id="female" value="female">
+                                        Cewe
+                                    </label>
+                                </div>
+
+                                <div class="height">
+                                    <div>
+                                        <input type="text" id="height" placeholder="tinggi badan (cm)">
+                                    </div>
+                                </div>
+
+                                <div class="count">
+                                    <button id="count">Hitung</button>
+                                </div>
+
+                                <div class="weight">
+                                    <div>
+                                        <input type="text" id="weight" disabled="" placeholder="berat badan kamu: ">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
